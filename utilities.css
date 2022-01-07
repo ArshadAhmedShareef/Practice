@@ -1,0 +1,67 @@
+
+/* Development.html css */
+/* color:rgb(248, 198, 62) */
+body{
+    
+ height: 100vh;
+    background-color: orange;
+}
+
+.head-text{
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 50px;
+}
+.orange{
+    color:rgb(248, 198, 62);
+}
+.black{
+    color:rgb(3, 3, 3); 
+}
+.white{
+    color:white;
+}
+.main-container{
+    align-items: center;
+}
+.container{
+    margin-top:20vh;
+    margin-left: 300px;
+    width:800px ;
+    background-color: none;
+    box-shadow: rgb(149, 157, 165, 0.2) 0px 8px 24px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px;
+    grid-column-gap: 20px;
+    
+
+}
+.item-webdev{
+    background-color: aliceblue;
+    border: solid;
+    border-color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 20px;
+    
+    
+}
+
+.item-androiddev{
+    background-color: aliceblue;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 6px;
+    padding-top: 90px;
+    font-size: 20px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
